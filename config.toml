@@ -20,8 +20,8 @@ googleAnalytics = ""
 
   # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
-  name = "Your Name"
-  description = "Your Description"
+  name = "YReady for commons"
+  description = "Ready for commons is a magazine about FAIR content: document, data or software are Findable, Accessible, Interoperable and Reusable for every use. We collect the metadata from Zenodo (CERN) for exposed the latest open access and open data stuff."
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
@@ -34,7 +34,7 @@ googleAnalytics = ""
   # - send a dummy email to yourself to confirm your account
   # - click the confirmation link in the email from www.formspree.io
   # - That's all. Enjoy mailing!
-  email = "your@mail.com"
+  email = "contact@osd.tools"
 
   # If this param is set to true, every section gets an own background image (located at static/images)
   # to change the image you could use the param picture on every section.
@@ -45,7 +45,7 @@ googleAnalytics = ""
   [params.hero]
     type = "hero"
     title = "Ready for commons"
-    description = "a fun litte { responsive } single Pager by [HTML5UP](//html5up.net)"
+    description = "Discover FAIR content"
     buttontext = "begin"
 
   # about section
@@ -53,7 +53,7 @@ googleAnalytics = ""
     id = "about"
     type = "text"
     title = "Who am I"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     buttontext = "next"
     # the picture is stored at static/images/
     picture = "pic01.jpg"
@@ -155,7 +155,7 @@ googleAnalytics = ""
     #[params.footer.copyright.notice]
 
       [[params.footer.copyright.notice]]
-        text = "© Untitled"
+        text = "© OSD opensensorsdata"
 
       [[params.footer.copyright.notice]]
         text = "Design: [HTML5UP](//html5up.net)"
