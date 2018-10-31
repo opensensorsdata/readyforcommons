@@ -6,7 +6,7 @@ title = "Ready for commons"
 publishDir = "docs"
 
 # THEME
-theme = "highlights"
+theme = "r4c"
 
 # Enter your tracking code to enable Google analytics
 googleAnalytics = ""
@@ -20,7 +20,8 @@ googleAnalytics = ""
 
   # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
-  name = "YReady for commons"
+  name = "OSD opensensorsdata"
+  payoff = "Discover FAIR content"
   description = "Ready for commons is a magazine about FAIR content: document, data or software are Findable, Accessible, Interoperable and Reusable for every use. We collect the metadata from Zenodo (CERN) for exposed the latest open access and open data stuff."
 
   # For a static site it's not possible to provide a contact form. The contact form uses
