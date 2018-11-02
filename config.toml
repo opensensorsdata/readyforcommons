@@ -23,6 +23,7 @@ googleAnalytics = ""
   name = "OSD opensensorsdata"
   payoff = "Deliver FAIR content"
   description = "Ready for commons is a magazine about FAIR content: document, data or software are Findable, Accessible, Interoperable and Reusable for every use. We collect the metadata from Zenodo (CERN) for exposed the latest open access and open data stuff."
+  image = "/images/seo/r4c-opg-facebook.png"
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email

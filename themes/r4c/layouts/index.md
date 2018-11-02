@@ -1,3 +1,8 @@
++++
+Title = "home"
+image = "/images/seo/r4c-opg-facebook.png"
++++
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
