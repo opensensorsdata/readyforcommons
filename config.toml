@@ -2,6 +2,9 @@ baseURL = "https://readyforcommons.com/"
 languageCode = "en-us"
 title = "Ready for commons"
 
+#Github pages
+publishDir = "docs"
+
 theme = "r4c"
 
 [params]
