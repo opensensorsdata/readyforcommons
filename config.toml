@@ -8,6 +8,7 @@ publishDir = "docs"
 theme = "r4c"
 
 [params]
+  payoff = "Deliver FAIR content"
   author = "OSD opensensorsdata"
   author_description = "Data asset management"
   description = "This is the Ready for commons site"

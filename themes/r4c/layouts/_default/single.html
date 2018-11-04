@@ -1,0 +1,9 @@
+{{ partial "head.html" . }}
+{{ partial "header-page.html" . }}
+<article class="pa3 pa5-ns avenir">
+  <h1 class="f3 f1-m f-headline-l">{{ .Title}}</h1>
+  <p class="measure lh-copy">
+    {{ .Content }}
+  </p>
+</article>
+{{ partial "footer.html" . }}
