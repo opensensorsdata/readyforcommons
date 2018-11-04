@@ -9,9 +9,9 @@ theme = "r4c"
 
 [params]
   author = "OSD opensensorsdata"
-  description = "Data asset management"
+  author_description = "Data asset management"
+  description = "This is the Ready for commons site"
   location = "Venezia, Italy"
-  site_description = "This is the Ready for commons site"
   copyright = "2018 Ready for commons by [OSD](https://osd.tools)"
   images = ["img/seo/r4c-opg-facebook.png"]
   title = "Ready for commons"

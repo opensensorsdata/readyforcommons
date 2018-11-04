@@ -9,15 +9,18 @@
     {{ with .Description }}
       <meta name="description" content="{{ . }}">
     {{ else }}
-      <meta name="description" content="{{ .Site.Params.site_description }}">
+      <meta name="description" content="{{ .Site.Params.author_description }}">
     {{ end }}
     <link rel="icon" href="{{ .Site.BaseURL }}img/favicon/favicon.ico">
     <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}img/favicon/apple-touch-icon.png" />
+
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+
+    {{ partial "seo/og.html" . }}
+
   </head>
   <body>
 
   </body>
 </html>
-
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
