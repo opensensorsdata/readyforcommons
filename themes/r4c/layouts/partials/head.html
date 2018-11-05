@@ -22,7 +22,9 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/r4c-color.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/tachyons.min.css">
 
-    
+    {{ if .Params.image }}
+      <meta name="twitter:image" content="{{ .Params.image }}">
+    {{ end }}
 
   </head>
   <body class="sans-serif bg-osd ink ph2">
