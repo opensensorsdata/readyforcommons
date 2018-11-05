@@ -2,7 +2,17 @@
 {{ partial "header-page.html" . }}
 <article class="pa3 pa5-ns avenir">
   <h1 class="f3 f1-m f-headline-l">{{ .Title}}</h1>
+
+  {{ if .Params.image }}
+    <div class="post-thumbnail-image-box">
+        <a href="{{ .Permalink }}">
+            <img{{ with .Params.image }} class="post-thumbnail-image" src="{{ . }}"{{ end }} alt="{{ .Title }}">
+        </a>
+    </div>
+    {{ end }}
+
   <p class="measure lh-copy">
+    <h1> <a href="{{ .Params.antani }}">{{ .Params.antani }}</a></h1>
     {{ .Content }}
   </p>
 </article>

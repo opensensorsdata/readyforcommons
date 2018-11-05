@@ -1,24 +1,8 @@
-baseURL = "https://readyforcommons.com/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Ready for commons"
-
-#Github pages
-publishDir = "docs"
-
+title = "Strata"
 theme = "hugo-strata-theme"
-
-# [params]
-#  payoff = "Deliver FAIR content"
-#  author = "OSD opensensorsdata"
-#  author_description = "Data asset management"
-#  description = "This is the Ready for commons site"
-#  location = "Venezia, Italy"
-#  copyright = "2018 Ready for commons by [OSD](https://osd.tools)"
-#  images = ["img/seo/r4c-opg-facebook.png"]
-#  title = "Ready for commons"
-
-  ####
-  disqusShortname = "spf13"
+disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -33,6 +17,9 @@ paginate = 10
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
 
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
 	# Add custom assets with their paths relative to the static folder
 	custom_js   = []
 	custom_css  = []
@@ -46,6 +33,7 @@ paginate = 10
 		# The icons will be shown if you enter your username
 		twitter = "spf13"
 		github = "spf13"
+		gitlab = "spf13"
 		dribbble = ""
 		facebook = ""
 		googleplus = ""
@@ -107,12 +95,17 @@ paginate = 10
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
+	[params.recentposts]
+		hide  = false
+		title = "Recent blog posts"
 
 	[params.contact]
 		hide  = false
 		title = "Get In Touch"
 		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
 
+		# This can be exact coordinates or a searchable address in google maps
+		gmaps_address = "39.7889055,-120.5443524"
 		address = [
 			"1234 Somewhere Rd.",
 			"Nashville, TN 00000",
@@ -146,9 +139,9 @@ paginate = 10
 [[menu.main]]
 	name = "Home"
 	url  = "/"
-	weight = 0
+	weight = 10
 
 [[menu.main]]
 	name = "Blog"
 	url  = "post/"
-	weight = 10
+	weight = 0
